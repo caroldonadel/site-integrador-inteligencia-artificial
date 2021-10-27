@@ -1,0 +1,38 @@
+h1,h2,p,a {
+    font-family: 'Montserrat',sans-serif;
+}
+
+.container__conteudo-principal{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.cabeçalho {
+width: 100%;
+height: 5rem;
+background-color: #3A2B5C;
+color: white;
+padding: 0.5rem;
+}
+
+.cabeçalho__titulo {
+    font-size: 2rem;
+}
+
+.cabeçalho__subtitulo {
+    margin-top: .5rem;
+}
+
+.videos {
+    background-color: #4D475C;
+    flex: .5;
+    color: #fafafa;
+    padding: 1rem;
+}
+
+.principal {
+    flex: 2;
+    padding: 0 2rem;
+}
