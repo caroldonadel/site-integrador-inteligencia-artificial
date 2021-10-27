@@ -61,11 +61,11 @@ h1,h2,p,a {
 }
 
 .equipe {
-    padding: 2rem;
+    padding-top: 5rem;
     display: grid;
     gap: 1em;
     grid-template-columns: repeat(3, 14em);
-    grid-template-rows: 80px auto 80px; 
+    grid-template-rows: 80px auto 80px;
     justify-content: center;
     text-align: center;
     font-size: 1.2rem;
