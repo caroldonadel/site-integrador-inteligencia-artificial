@@ -27,9 +27,31 @@ h1,h2,p,a {
 
 .videos {
     background-color: #4D475C;
-    flex: .5;
+    flex: .6;
     color: #fafafa;
     padding: 1rem;
+}
+
+.videos__titulo {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.videos__lista {
+    padding: 1rem;
+}
+
+.videos__link {
+    display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fafafa;
+    padding: 1rem 1rem 1rem 0;
+}
+
+.videos__link:hover {
+    text-decoration: underline;
+    background-color: #6A4FA8;
 }
 
 .conteudo-principal__mapa-conceitual {
